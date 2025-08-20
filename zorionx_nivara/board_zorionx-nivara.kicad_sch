@@ -317,6 +317,220 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SM712_SOT23"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM712_SOT23"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+				(at -3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM712_SOT23_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_0_1"
+				(polyline
+					(pts
+						(xy -6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -6.35 1.27) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1414,6 +1628,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 129.54) (xy 248.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bafdc7d-bb1b-4e37-b1bb-f9fd9c259f4e")
+	)
+	(wire
+		(pts
 			(xy 135.89 27.94) (xy 135.89 29.21)
 		)
 		(stroke
@@ -1431,6 +1655,16 @@
 			(type default)
 		)
 		(uuid "246cff0d-769b-4757-8eda-221060ec3f03")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa4919c-00af-4898-bb96-363ad7c81198")
 	)
 	(wire
 		(pts
@@ -1524,6 +1758,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 125.73) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade5c27e-f42d-4222-80b8-bd0ff440638e")
+	)
+	(wire
+		(pts
+			(xy 242.57 133.35) (xy 248.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba383ef-1514-4c46-ab4d-048a7f7e26ce")
+	)
+	(wire
+		(pts
 			(xy 135.89 29.21) (xy 135.89 44.45)
 		)
 		(stroke
@@ -1544,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 110.49) (xy 248.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cf002e-e7fe-48b4-b5db-3e9cffe2b5b2")
+	)
+	(wire
+		(pts
 			(xy 115.57 46.99) (xy 115.57 49.53)
 		)
 		(stroke
@@ -1561,6 +1825,16 @@
 			(type default)
 		)
 		(uuid "ddd4733b-e0de-41ff-a964-39832cd0df04")
+	)
+	(wire
+		(pts
+			(xy 242.57 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0156884-c1e6-485a-849c-9038c15fa5bf")
 	)
 	(wire
 		(pts
@@ -1659,7 +1933,7 @@
 	)
 	(hierarchical_label "RLY2_NC"
 		(shape output)
-		(at 243.84 129.54 0)
+		(at 248.92 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1681,7 +1955,7 @@
 	)
 	(hierarchical_label "RLY2_C"
 		(shape output)
-		(at 243.84 125.73 0)
+		(at 248.92 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1725,7 +1999,7 @@
 	)
 	(hierarchical_label "RLY2_NO"
 		(shape output)
-		(at 243.84 133.35 0)
+		(at 248.92 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1736,7 +2010,7 @@
 	)
 	(hierarchical_label "RLY1_NC"
 		(shape output)
-		(at 243.84 114.3 0)
+		(at 248.92 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1758,7 +2032,7 @@
 	)
 	(hierarchical_label "RLY1_C"
 		(shape output)
-		(at 243.84 110.49 0)
+		(at 248.92 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,7 +2054,7 @@
 	)
 	(hierarchical_label "RLY1_NO"
 		(shape output)
-		(at 243.84 118.11 0)
+		(at 248.92 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1865,6 +2139,77 @@
 			(justify left)
 		)
 		(uuid "fc955962-519f-4e92-b4bc-07e26070dc82")
+	)
+	(symbol
+		(lib_id "Diode:SM712_SOT23")
+		(at 181.61 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d75404-3e9f-4d1a-aefa-4ebd1733fce9")
+		(property "Reference" "D1"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM712_SOT23"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c53c96fa-4144-4829-ab09-c3ce4f426bcc")
+		)
+		(pin "1"
+			(uuid "c7f0ab12-7ce5-4a69-ab43-fb2156e6724f")
+		)
+		(pin "3"
+			(uuid "82caef0b-59fc-474f-829f-174cf809d800")
+		)
+		(instances
+			(project ""
+				(path "/f2de36b2-81cb-4123-9a7d-6a58bb468c83/5c2764ec-6d16-4e1c-b9c0-76c16778bf20"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3035,8 +3380,8 @@
 		)
 	)
 	(sheet
-		(at 227.33 109.22)
-		(size 12.7 30.48)
+		(at 215.9 107.95)
+		(size 26.67 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3051,7 +3396,7 @@
 		)
 		(uuid "f7e8a99d-3526-4034-943d-75c5346ab88b")
 		(property "Sheetname" "relay"
-			(at 227.33 108.5084 0)
+			(at 215.9 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,13 +3405,93 @@
 			)
 		)
 		(property "Sheetfile" "relay.kicad_sch"
-			(at 227.33 140.2846 0)
+			(at 215.9 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "RELAY_1_IN" input
+			(at 215.9 113.03 180)
+			(uuid "5c1d2aa1-1b3a-4e3b-b254-233f1f8e89bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RELAY_2_IN" input
+			(at 215.9 120.65 180)
+			(uuid "f72b4ed9-f349-44a9-946d-0b2be41a4671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RLY1_C" output
+			(at 242.57 110.49 0)
+			(uuid "b63c63fc-8d00-45bd-b9bd-d370b7b5b5ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RLY1_NC" output
+			(at 242.57 114.3 0)
+			(uuid "d73e0ef0-34ac-4f8e-a6c1-deef7faad64b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RLY1_NO" output
+			(at 242.57 118.11 0)
+			(uuid "55810e54-7f6a-48e6-86d8-b5cc3eeea81d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RLY2_C" output
+			(at 242.57 125.73 0)
+			(uuid "34e8e458-166d-47b1-b17b-a9be62ed82bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RLY2_NC" output
+			(at 242.57 129.54 0)
+			(uuid "6f77442a-1fc5-4425-bdaa-19e55d6303be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RLY2_NO" output
+			(at 242.57 133.35 0)
+			(uuid "b6dfad67-f86d-4764-a4dd-b359519b5e06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
